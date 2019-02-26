@@ -1,6 +1,4 @@
-
-
-
+package ru.job4j.calculate;
 /**
 * Package for calculate task.
 *
@@ -8,4 +6,3 @@
 * @version $Id$.
 * @since 25.02.2019.
 */
-package ru.job4j.calculate;
