@@ -1,23 +1,18 @@
-package ru.job4j.calculate;
-/**
-  * Class Calculate решение задачи части 001 урок 1.3.
-  *@author senyugin
-  *@since 25.02.2019
-*/  
-public class Calculate{
-/**
-*метод для тестирования.
-*@param value строка для вывода в консоль.
-*@return String value.
-*/	
-public String echo(String value){
-	   return String.format("%s %s %s", value, value, value);
-}
-public static void main (String[] args){
-	   Calculate calc = new Calculate();
-	   System.out.println(calc.echo("aah"));
-	
-	}	
-	
-}
+package ru.job4j;
 
+/**
+ * Class Calculate.
+ *
+ * @author Pavel Senyugin (mister.senyugin@yandex.ru)
+ * @version $Id$
+ * @since 4.03.19
+ */
+public class Calculate {
+    /**
+     * Main.
+     * @param args - args.
+     */
+    public static void main(String[] args) {
+        System.out.println("Hello World");
+    }
+}
