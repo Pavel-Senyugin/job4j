@@ -1,11 +1,11 @@
 package ru.job4j;
 
 /**
- * Class Calculate.
+ * Calculate.
  *
- * @author Pavel Senyugin (mister.senyugin@yandex.ru)
+ * @author Pavel Senyugin(mister.senyugin@yandex.ru)
  * @version $Id$
- * @since 4.03.19
+ * @since 4.02.19
  */
 public class Calculate {
     /**
