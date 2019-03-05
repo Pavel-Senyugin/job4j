@@ -13,6 +13,7 @@ import static org.junit.Assert.assertThat;
 public class CalculatorTest {
     /**
      * Test add.
+     * Метод проверки метода сложения.
      */
     @Test
     public void whenAddOnePlusOneThenTwo() {
@@ -21,6 +22,9 @@ public class CalculatorTest {
         double expected = 2d;
         assertThat(result, is(expected));
     }
+    /**
+     * Метод проверки метода вычитания.
+     */
     @Test
     public void whenOddOnePlusOneThenTwo() {
         Calculator calc = new Calculator();
@@ -28,6 +32,9 @@ public class CalculatorTest {
         double expected = 1d - 1d;
         assertThat(result, is(expected));
     }
+    /**
+     * Метод проверки метода умножения.
+     */
     @Test
     public void whenEddOnePlusOneThenTwo() {
         Calculator calc = new Calculator();
@@ -35,6 +42,9 @@ public class CalculatorTest {
         double expected = 1d * 1d;
         assertThat(result, is(expected));
     }
+    /**
+     * Метод проверки метода деления.
+     */
     @Test
     public void whenUddOnePlusOneThenTwo() {
         Calculator calc = new Calculator();
