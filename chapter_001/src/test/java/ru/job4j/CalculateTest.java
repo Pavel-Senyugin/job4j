@@ -21,7 +21,7 @@ public class CalculateTest {
     public void whenAddOneToOneThenTwo() {
         ByteArrayOutputStream out = new ByteArrayOutputStream();
         System.setOut(new PrintStream(out));
-        Calculate.main(null);
+        ru.job4j.Calculate.main(null);
         assertThat(
                 out.toString(),
                 is(
