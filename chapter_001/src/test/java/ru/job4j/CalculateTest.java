@@ -1,4 +1,4 @@
-package ru.job4j;
+package ru.job4j.calculate;
 
 import org.junit.Test;
 import java.io.ByteArrayOutputStream;
@@ -21,7 +21,7 @@ public class CalculateTest {
     public void whenAddOneToOneThenTwo() {
         ByteArrayOutputStream out = new ByteArrayOutputStream();
         System.setOut(new PrintStream(out));
-        ru.job4j.Calculate.main(null);
+        Calculate.main(null);
         assertThat(
                 out.toString(),
                 is(
