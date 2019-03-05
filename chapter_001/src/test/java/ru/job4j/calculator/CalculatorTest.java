@@ -21,4 +21,25 @@ public class CalculatorTest {
         double expected = 2d;
         assertThat(result, is(expected));
     }
+    @Test
+    public void whenOddOnePlusOneThenTwo() {
+        Calculator calc = new Calculator();
+        double result = calc.odd(1d, 1d);
+        double expected = 1d - 1d;
+        assertThat(result, is(expected));
+    }
+    @Test
+    public void whenEddOnePlusOneThenTwo() {
+        Calculator calc = new Calculator();
+        double result = calc.edd(1d, 1d);
+        double expected = 1d * 1d;
+        assertThat(result, is(expected));
+    }
+    @Test
+    public void whenUddOnePlusOneThenTwo() {
+        Calculator calc = new Calculator();
+        double result = calc.udd(1d, 1d);
+        double expected = 1d / 1d;
+        assertThat(result, is(expected));
+    }
 }

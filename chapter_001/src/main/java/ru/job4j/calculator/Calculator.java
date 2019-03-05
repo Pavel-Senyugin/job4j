@@ -9,4 +9,16 @@ public class Calculator {
 
         return first + second;
     }
+    public double odd(double first, double second) {
+
+        return first - second;
+    }
+    public double edd(double first, double second) {
+
+        return first * second;
+    }
+    public double udd(double first, double second) {
+
+        return first / second;
+    }
 }
