@@ -16,7 +16,7 @@ public class Fit {
         /**
          * Метод вычесления веса .
          */
-        return height = 100 * 1.15;
+        return (height = 100) * 1.15;
     }
     /**
      * Идеальный вес для женщины.
@@ -27,6 +27,6 @@ public class Fit {
         /**
          * Метод вычесления веса.
          */
-        return height - 110 * 1.15;
+        return (height - 110) * 1.15;
     }
 }
