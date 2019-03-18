@@ -7,25 +7,25 @@ package ru.job4j.condition;
  */
 
 public class MultiMax {
-    public int max(int a, int b, int c) {
-
-
-        int result = (a > b) ? ((a > c)? a : c) : ((b > c) ?  b : c);
-
+    public int max(int first, int second, int third) {
+        int result = first;
+        result = result > second ? result : second;
+        result = result > third ? result : third;
         return result;
     }
-    public int max1(int a, int b, int c) {
-
-        int result = (b > a) ? ((b > c) ? b : c) : ((a > c) ? a : c);
-
-        return  result;
+    public int max1(int first, int second, int third) {
+        int result = second;
+        result = result > first ? result : first;
+        result = result > third ? result : third;
+        return result;
 
     }
-    public int max2(int a, int b, int c) {
-
-        int result = (c > b) ? ((c > a) ? c : a) : ((b > a) ? b : a);
-
+    public int max2(int first, int second, int third) {
+        int result = third;
+        result = result > second ? result : second;
+        result = result > first ? result : first;
         return result;
+
     }
 }
 
