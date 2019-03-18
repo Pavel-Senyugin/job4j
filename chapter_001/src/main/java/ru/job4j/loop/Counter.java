@@ -20,4 +20,16 @@ public class Counter {
 
     }
 
+    public int add1(int start, int finish) {
+        start = 0;
+        finish = 10;
+        int sum = 0;
+        for (int index = 0; index <= 10; index++) {
+            if (index == 5) {
+                break;
+            }
+        }
+        return sum;
+    }
+
 }
