@@ -10,7 +10,7 @@ public class Counter {
         start = 0;
         finish = 10;
         int sum = 0;
-        for (int index = 0; index <= 10; index++) {
+        for (int index = start; index <= finish; index++) {
             if (index % 2 != 0) {
                 continue;
             }
@@ -24,7 +24,7 @@ public class Counter {
         start = 0;
         finish = 10;
         int sum = 0;
-        for (int index = 0; index <= 10; index++) {
+        for (int index = start; index <= finish; index++) {
             if (index == 5) {
                 break;
             }
