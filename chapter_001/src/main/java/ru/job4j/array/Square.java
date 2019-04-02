@@ -1,8 +1,8 @@
 package ru.job4j.array;
 /**
- * Class loop Paint (Рефакторинг кода).
+ * Class Square.
  * @author Senyugin Pavel (mister.senyugin@yandex.ru)
- * @since 29.03.2019
+ * @since 02.04.2019
  */
 
 public class Square {
