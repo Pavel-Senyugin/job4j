@@ -19,13 +19,13 @@ public class Paint {
         return this.loopyBy(
                 height,
                 height,
-                (row, column) -> row >= height - column -1
+                (row, column) -> row >= height - column - 1
         );
     }
     public String Pyramid(int height) {
         return this.loopyBy(
                 height,
-                2 * height -1,
+                2 * height - 1,
                 (row, column) -> row >= height - column - 1 && row + height - 1 >= column
         );
     }
