@@ -1,6 +1,6 @@
 package ru.job4j.converter;
 
-import sun.awt.SunHints;
+
 
 /**
  * Class Converter решение задачи 3.2. Конвертер валюты.[#112337].
